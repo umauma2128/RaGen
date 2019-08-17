@@ -163,7 +163,7 @@ color: black;
 
 
 
-<a href="https://github.com/umauma2128/RaGen/blob/master/php/sandboxresource.php" class="previous">&laquo; Back</a>
+<a href="../sandboxresource.php" class="previous">&laquo; Back</a>
 
 
 </body>

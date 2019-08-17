@@ -169,7 +169,7 @@ color: black;
 
 
 
-<a href="http://localhost/php/prodresource.php" class="previous">&laquo; Back</a>
+<a href="../prodresource.php" class="previous">&laquo; Back</a>
 
 
 </body>

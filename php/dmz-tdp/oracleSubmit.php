@@ -125,7 +125,7 @@ color: black;
 
 
 
-<a href="https://github.com/umauma2128/RaGen/blob/master/php/dmztdpresource.php" class="previous">&laquo; Back</a>
+<a href="../dmztdpresource.php" class="previous">&laquo; Back</a>
 
 
 </body>

@@ -182,7 +182,7 @@ color: black;
 
 
 
-<a href="https://github.com/umauma2128/RaGen/blob/master/php/nonprodresource.php" class="previous">&laquo; Back</a>
+<a href="../nonprodresource.php" class="previous">&laquo; Back</a>
 
 
 </body>
