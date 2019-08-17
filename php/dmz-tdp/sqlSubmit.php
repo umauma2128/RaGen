@@ -137,7 +137,7 @@ color: black;
 
 
 
-<a href="http://localhost/php/dmztdpresource.php" class="previous">&laquo; Back</a>
+<a href="https://github.com/umauma2128/RaGen/blob/master/php/dmztdpresource.php" class="previous">&laquo; Back</a>
 
 
 </body>

@@ -164,7 +164,7 @@ color: black;
 
 
 
-<a href="http://localhost/php/dmznonprodresource.php" class="previous">&laquo; Back</a>
+<a href="https://github.com/umauma2128/RaGen/blob/master/php/dmznonprodresource.php" class="previous">&laquo; Back</a>
 
 
 </body>

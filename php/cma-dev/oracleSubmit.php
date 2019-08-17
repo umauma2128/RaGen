@@ -126,7 +126,7 @@ color: black;
 
 
 
-<a href="http://localhost/php/devresource.php" class="previous">&laquo; Back</a>
+<a href="https://github.com/umauma2128/RaGen/blob/master/php/devresource.php" class="previous">&laquo; Back</a>
 
 
 </body>
