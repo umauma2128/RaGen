@@ -62,6 +62,7 @@
  //   $path = "../output/cma-sandbox/";
   //  $fullpath = $path . "/" . $fn;
    // if (!file_exists($fullPath)){
+    $filename ='../output/cma-sandbox/'.$en.'.tf';
        mkdir($en, 0777);}
     // $filename = "main.tf"
      // $file = $fullpath . "/" . $filename
