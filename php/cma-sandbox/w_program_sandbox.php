@@ -60,9 +60,9 @@
     $az = "availability_zones = [$avail_zone]";
     
     
-           mkdir($en, 0777);
+           mkdir(../output/cma-sandbox/$en, 0777);
    // chdir('/Applications/XAMPP/xamppfiles/htdocs/php/terraform/env/{$en}/');
-           mkdir($fn, 0777);
+           mkdir(../output/cma-sandbox/$en/$fn, 0777);
     $file = fopen('../output/cma-sandbox/{$en}/$fn/main.tf', 'a+'); //Open your .txt file
     ftruncate($file, 0); //Clear the file to 0bit
     $content = $bucket. PHP_EOL ;
