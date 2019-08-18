@@ -59,15 +59,15 @@
     $si = "subnet_ids         = [$subnet_id]";
     $az = "availability_zones = [$avail_zone]";
     
-    $path = "../output/cma-sandbox/";
-    $fullpath = $path . "/" . $fn;
-    if (!file_exists($fullPath)){
-        mkdir($fullpath, 0777);}
-    $filename = "main.tf"
-    $file = $fullpath . "/" . $filename
+ //   $path = "../output/cma-sandbox/";
+  //  $fullpath = $path . "/" . $fn;
+   // if (!file_exists($fullPath)){
+       mkdir($en, 0777);}
+    // $filename = "main.tf"
+     // $file = $fullpath . "/" . $filename
    // chdir('/Applications/XAMPP/xamppfiles/htdocs/php/terraform/env/{$en}/');
           // mkdir(../output/cma-sandbox/$en/$fn, 0777);
-    $file = fopen("$file", 'a+'); //Open your .txt file
+    $file = fopen('main.tf', 'a+'); //Open your .txt file
     ftruncate($file, 0); //Clear the file to 0bit
     $content = $bucket. PHP_EOL ;
     $content1 = $keyy. PHP_EOL ;
