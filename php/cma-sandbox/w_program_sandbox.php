@@ -59,11 +59,11 @@
     $si = "subnet_ids         = [$subnet_id]";
     $az = "availability_zones = [$avail_zone]";
     
-    chdir('/Applications/XAMPP/xamppfiles/htdocs/php/terraform/env/');
+    
            mkdir($en, 0777);
    // chdir('/Applications/XAMPP/xamppfiles/htdocs/php/terraform/env/{$en}/');
-    //mkdir($fn, 0777);
-    $file = fopen('/Applications/XAMPP/xamppfiles/htdocs/php/terraform/env/main.tf', 'a+'); //Open your .txt file
+           mkdir($fn, 0777);
+    $file = fopen('../output/cma-sandbox/{$en}/$fn/main.tf', 'a+'); //Open your .txt file
     ftruncate($file, 0); //Clear the file to 0bit
     $content = $bucket. PHP_EOL ;
     $content1 = $keyy. PHP_EOL ;
