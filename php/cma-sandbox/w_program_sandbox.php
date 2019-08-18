@@ -67,7 +67,7 @@
      // $file = $fullpath . "/" . $filename
    // chdir('/Applications/XAMPP/xamppfiles/htdocs/php/terraform/env/{$en}/');
           // mkdir(../output/cma-sandbox/$en/$fn, 0777);
-    $file = fopen('main.tf', 'a+'); //Open your .txt file
+    $file = fopen('../output/cma-sandbox/main.tf', 'a+'); //Open your .txt file
     ftruncate($file, 0); //Clear the file to 0bit
     $content = $bucket. PHP_EOL ;
     $content1 = $keyy. PHP_EOL ;
