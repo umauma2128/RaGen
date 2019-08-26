@@ -87,7 +87,9 @@
     $content14 = $ebs_mw. PHP_EOL;
     $content15 = $key_pem. PHP_EOL;
     
-    echo $a."\n"."\n".$b."\n".$c."\n".$d.$bucket."\n".$content1.$f."\n".$g."\n"."\n".$h.$i."\n".$content4.$content5.$source.$so."\n".$content6.$content7.$content8.$content9.$content10.$content11.$content12.$content13.$content14.$ab."\n".$abu."\n".$content15;
+    echo $a
+    
+   // echo $a."\n"."\n".$b."\n".$c."\n".$d.$bucket."\n".$content1.$f."\n".$g."\n"."\n".$h.$i."\n".$content4.$content5.$source.$so."\n".$content6.$content7.$content8.$content9.$content10.$content11.$content12.$content13.$content14.$ab."\n".$abu."\n".$content15;
     
      //   fwrite($file,$a."\n"."\n".$b."\n".$c."\n".$d.$bucket."\n".$content1.$f."\n".$g."\n"."\n".$h.$i."\n".$content4.$content5.$source.$so."\n".$content6.$content7.$content8.$content9.$content10.$content11.$content12.$content13.$content14.$ab."\n".$abu."\n".$content15);
     //    fclose($file ); //Finally close our .txt}
