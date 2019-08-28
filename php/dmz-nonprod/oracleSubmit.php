@@ -22,10 +22,6 @@ app.controller("myCtrl", function($scope) {
 
 <form action="oracle.php" method="post">
 
-//Resource Folder name
-//<br><input type="text" name="fn"><br>
-//<small>eg: create-obi-rds-server</small>
-//<br><br>
 
 s3 Bucket Name<br>
 <select name="buc">
