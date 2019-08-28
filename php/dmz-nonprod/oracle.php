@@ -1,5 +1,5 @@
 <?php
-    
+    error_reporting(E_ERROR | E_PARSE);
     $fn = $_POST["fn"];
     $bucket = $_POST["buc"]; //You have to get the form data
     $key               = $_POST["ky"];
@@ -53,10 +53,11 @@
     $content16 = $rds_storag. PHP_EOL;
     $content17 = $infra. PHP_EOL;
     $content18 = $mult. PHP_EOL;
+    $content19 = "}";
+    echo nl2br($a."\n"."\n".$b."\n".$c."\n".$d.$bucket."\n".$content1.$f."\n".$g."\n"."\n".$h.$i."\n".$content4.$content5.$content6.$source.$so."\n".$content7.$content8.$content9.$content10.$content16.$content17.$content18.$content19);
     
+    //fwrite($file,$a."\n"."\n".$b."\n".$c."\n".$d.$bucket."\n".$content1.$f."\n".$g."\n"."\n".$h.$i."\n".$content4.$content5.$content6.$source.$so."\n".$content7.$content8.$content9.$content10.$content16.$content17.$content18);
+   // fclose($file ); //Finally close our .txt}
     
-    fwrite($file,$a."\n"."\n".$b."\n".$c."\n".$d.$bucket."\n".$content1.$f."\n".$g."\n"."\n".$h.$i."\n".$content4.$content5.$content6.$source.$so."\n".$content7.$content8.$content9.$content10.$content16.$content17.$content18);
-    fclose($file ); //Finally close our .txt}
-    
-    die(header("Location: ".$_SERVER["HTTP_REFERER"]));
+    //die(header("Location: ".$_SERVER["HTTP_REFERER"]));
     ?>

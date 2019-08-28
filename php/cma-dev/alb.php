@@ -1,4 +1,5 @@
 <?php
+    error_reporting(E_ERROR | E_PARSE);
     $albErr = $alburlErr = "";
     $alb = $alburl = "";
     
@@ -77,10 +78,10 @@
     $content15 = $ac. PHP_EOL;
     $content16 = $r53zone. PHP_EOL;
     $content17 = $r53record. PHP_EOL;
+    $content19 = "}";
+    echo nl2br($a."\n"."\n".$b."\n".$c."\n".$d.$bucket."\n".$content1.$f."\n".$g."\n"."\n".$h.$i."\n".$content4.$content15.$source.$so."\n".$content9.$content10.$content11.$content12.$content16.$content17.$ab."\n".$abu."\n".$content19);
+    //fwrite($file,$a."\n"."\n".$b."\n".$c."\n".$d.$bucket."\n".$content1.$f."\n".$g."\n"."\n".$h.$i."\n".$content4.$content15.$source.$so."\n".$content9.$content10.$content11.$content12.$content16.$content17.$ab."\n".$abu."\n");
+    //fclose($file ); //Finally close our .txt}
     
-    
-    fwrite($file,$a."\n"."\n".$b."\n".$c."\n".$d.$bucket."\n".$content1.$f."\n".$g."\n"."\n".$h.$i."\n".$content4.$content15.$source.$so."\n".$content9.$content10.$content11.$content12.$content16.$content17.$ab."\n".$abu."\n");
-    fclose($file ); //Finally close our .txt}
-    
-    die(header("Location: ".$_SERVER["HTTP_REFERER"]));
+    //die(header("Location: ".$_SERVER["HTTP_REFERER"]));
     ?>

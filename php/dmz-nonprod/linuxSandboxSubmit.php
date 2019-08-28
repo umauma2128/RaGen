@@ -25,10 +25,10 @@ app.controller("myCtrl", function($scope) {
 
 
 <form action="l_program_sandbox.php" method="post">
-Resource Folder name
-<br><input type="text" name="fn"><br>
-<small>eg: create-obi-app</small>
-<br><br>
+//Resource Folder name
+//<br><input type="text" name="fn"><br>
+//<small>eg: create-obi-app</small>
+//<br><br>
 
 s3 Bucket Name<br>
 <select name="buc">
